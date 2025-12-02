@@ -1,0 +1,1 @@
+Documentación técnica del proyecto: monitoreo, despliegue, pipeline y evidencia.

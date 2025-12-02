@@ -1,0 +1,11 @@
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  placeholder:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Echo
+        run: echo "Pipeline placeholder — reemplazar con CI/CD real "
