@@ -1,0 +1,194 @@
+2025-12-01T22:28:24.086-03:00  INFO 23564 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] dProyectoDesarrolloAppMovilesApplication : Starting BackendProyectoDesarrolloAppMovilesApplication using Java 22.0.1 with PID 23564 (D:\Programas\Repos\Backend_Proyecto_Desarrollo_app_moviles\target\classes started by sebit in D:\Programas\Repos\Backend_Proyecto_Desarrollo_app_moviles)
+2025-12-01T22:28:24.088-03:00 DEBUG 23564 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] dProyectoDesarrolloAppMovilesApplication : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-12-01T22:28:24.088-03:00  INFO 23564 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] dProyectoDesarrolloAppMovilesApplication : No active profile set, falling back to 1 default profile: "default"
+2025-12-01T22:28:24.753-03:00  INFO 23564 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-01T22:28:24.798-03:00  INFO 23564 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 2 JPA repository interfaces.
+2025-12-01T22:28:25.153-03:00  INFO 23564 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-12-01T22:28:25.164-03:00  INFO 23564 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-01T22:28:25.164-03:00  INFO 23564 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-12-01T22:28:25.207-03:00  INFO 23564 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-01T22:28:25.208-03:00  INFO 23564 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1073 ms
+2025-12-01T22:28:25.449-03:00  INFO 23564 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-01T22:28:25.493-03:00  INFO 23564 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-12-01T22:28:25.523-03:00  INFO 23564 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-12-01T22:28:25.753-03:00  INFO 23564 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-01T22:28:25.777-03:00  INFO 23564 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-01T22:28:25.912-03:00  INFO 23564 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1d622556
+2025-12-01T22:28:25.914-03:00  INFO 23564 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-01T22:28:25.931-03:00  WARN 23564 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-01T22:28:25.932-03:00  WARN 23564 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-12-01T22:28:25.946-03:00  INFO 23564 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-01T22:28:26.464-03:00  INFO 23564 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-01T22:28:26.519-03:00  INFO 23564 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-01T22:28:26.759-03:00  WARN 23564 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-01T22:28:27.075-03:00  INFO 23564 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2025-12-01T22:28:27.195-03:00  INFO 23564 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-12-01T22:28:27.208-03:00  INFO 23564 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] dProyectoDesarrolloAppMovilesApplication : Started BackendProyectoDesarrolloAppMovilesApplication in 3.557 seconds (process running for 3.882)
+2025-12-01T22:28:30.641-03:00  INFO 23564 --- [Backend_Proyecto_Desarrollo_app_moviles] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-01T22:28:30.641-03:00  INFO 23564 --- [Backend_Proyecto_Desarrollo_app_moviles] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-01T22:28:30.643-03:00  INFO 23564 --- [Backend_Proyecto_Desarrollo_app_moviles] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-12-01T22:37:55.583-03:00  INFO 23564 --- [Backend_Proyecto_Desarrollo_app_moviles] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-01T22:37:55.586-03:00  INFO 23564 --- [Backend_Proyecto_Desarrollo_app_moviles] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-12-01T22:37:55.589-03:00  INFO 23564 --- [Backend_Proyecto_Desarrollo_app_moviles] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-01T22:37:55.591-03:00  INFO 23564 --- [Backend_Proyecto_Desarrollo_app_moviles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-01T22:37:55.597-03:00  INFO 23564 --- [Backend_Proyecto_Desarrollo_app_moviles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-12-01T22:41:07.413-03:00  INFO 28328 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] dProyectoDesarrolloAppMovilesApplication : Starting BackendProyectoDesarrolloAppMovilesApplication using Java 22.0.1 with PID 28328 (D:\Programas\Repos\Backend_Proyecto_Desarrollo_app_moviles\target\classes started by sebit in D:\Programas\Repos\Backend_Proyecto_Desarrollo_app_moviles)
+2025-12-01T22:41:07.414-03:00 DEBUG 28328 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] dProyectoDesarrolloAppMovilesApplication : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-12-01T22:41:07.415-03:00  INFO 28328 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] dProyectoDesarrolloAppMovilesApplication : No active profile set, falling back to 1 default profile: "default"
+2025-12-01T22:41:07.938-03:00  INFO 28328 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-01T22:41:07.973-03:00  INFO 28328 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 2 JPA repository interfaces.
+2025-12-01T22:41:08.232-03:00  INFO 28328 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-12-01T22:41:08.244-03:00  INFO 28328 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-01T22:41:08.244-03:00  INFO 28328 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-12-01T22:41:08.283-03:00  INFO 28328 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-01T22:41:08.283-03:00  INFO 28328 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 837 ms
+2025-12-01T22:41:08.455-03:00  INFO 28328 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-01T22:41:08.489-03:00  INFO 28328 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-12-01T22:41:08.512-03:00  INFO 28328 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-12-01T22:41:08.693-03:00  INFO 28328 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-01T22:41:08.713-03:00  INFO 28328 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-01T22:41:08.824-03:00  INFO 28328 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@bfd97fb
+2025-12-01T22:41:08.825-03:00  INFO 28328 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-01T22:41:08.839-03:00  WARN 28328 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-01T22:41:08.840-03:00  WARN 28328 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-12-01T22:41:08.852-03:00  INFO 28328 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-01T22:41:09.447-03:00  INFO 28328 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-01T22:41:09.511-03:00  INFO 28328 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-01T22:41:09.709-03:00  WARN 28328 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-01T22:41:09.984-03:00  INFO 28328 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2025-12-01T22:41:10.040-03:00  INFO 28328 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-12-01T22:41:10.049-03:00  INFO 28328 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] dProyectoDesarrolloAppMovilesApplication : Started BackendProyectoDesarrolloAppMovilesApplication in 2.999 seconds (process running for 3.264)
+2025-12-01T22:41:36.173-03:00  INFO 28328 --- [Backend_Proyecto_Desarrollo_app_moviles] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-01T22:41:36.173-03:00  INFO 28328 --- [Backend_Proyecto_Desarrollo_app_moviles] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-01T22:41:36.174-03:00  INFO 28328 --- [Backend_Proyecto_Desarrollo_app_moviles] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-12-01T22:47:26.820-03:00  INFO 28328 --- [Backend_Proyecto_Desarrollo_app_moviles] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-01T22:47:26.824-03:00  INFO 28328 --- [Backend_Proyecto_Desarrollo_app_moviles] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-12-01T22:47:26.827-03:00  INFO 28328 --- [Backend_Proyecto_Desarrollo_app_moviles] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-01T22:47:26.828-03:00  INFO 28328 --- [Backend_Proyecto_Desarrollo_app_moviles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-01T22:47:26.879-03:00  INFO 28328 --- [Backend_Proyecto_Desarrollo_app_moviles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-12-01T22:47:37.233-03:00  INFO 23776 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] ectoDesarrolloAppMovilesApplicationTests : Starting BackendProyectoDesarrolloAppMovilesApplicationTests using Java 22.0.1 with PID 23776 (started by sebit in D:\Programas\Repos\Backend_Proyecto_Desarrollo_app_moviles)
+2025-12-01T22:47:37.234-03:00 DEBUG 23776 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] ectoDesarrolloAppMovilesApplicationTests : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-12-01T22:47:37.234-03:00  INFO 23776 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] ectoDesarrolloAppMovilesApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2025-12-01T22:47:37.838-03:00  INFO 23776 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-01T22:47:37.884-03:00  INFO 23776 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 2 JPA repository interfaces.
+2025-12-01T22:47:38.140-03:00  INFO 23776 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-01T22:47:38.182-03:00  INFO 23776 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-12-01T22:47:38.213-03:00  INFO 23776 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-12-01T22:47:38.443-03:00  INFO 23776 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-01T22:47:38.466-03:00  INFO 23776 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-01T22:47:38.590-03:00  INFO 23776 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@77eb607e
+2025-12-01T22:47:38.592-03:00  INFO 23776 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-01T22:47:38.607-03:00  WARN 23776 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-01T22:47:38.608-03:00  WARN 23776 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-12-01T22:47:38.621-03:00  INFO 23776 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-01T22:47:39.159-03:00  INFO 23776 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-01T22:47:39.218-03:00  INFO 23776 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-01T22:47:39.524-03:00  WARN 23776 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-01T22:47:39.944-03:00  INFO 23776 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoints beneath base path '/actuator'
+2025-12-01T22:47:39.994-03:00  INFO 23776 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] ectoDesarrolloAppMovilesApplicationTests : Started BackendProyectoDesarrolloAppMovilesApplicationTests in 3.007 seconds (process running for 3.906)
+2025-12-01T22:47:40.898-03:00  INFO 23776 --- [Backend_Proyecto_Desarrollo_app_moviles] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-01T22:47:40.902-03:00  INFO 23776 --- [Backend_Proyecto_Desarrollo_app_moviles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-01T22:47:40.910-03:00  INFO 23776 --- [Backend_Proyecto_Desarrollo_app_moviles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-12-01T23:05:48.263-03:00  INFO 21060 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] dProyectoDesarrolloAppMovilesApplication : Starting BackendProyectoDesarrolloAppMovilesApplication using Java 22.0.1 with PID 21060 (D:\Programas\Repos\Backend_Proyecto_Desarrollo_app_moviles\target\classes started by sebit in D:\Programas\Repos\Backend_Proyecto_Desarrollo_app_moviles)
+2025-12-01T23:05:48.265-03:00 DEBUG 21060 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] dProyectoDesarrolloAppMovilesApplication : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-12-01T23:05:48.266-03:00  INFO 21060 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] dProyectoDesarrolloAppMovilesApplication : No active profile set, falling back to 1 default profile: "default"
+2025-12-01T23:05:48.919-03:00  INFO 21060 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-01T23:05:48.971-03:00  INFO 21060 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 2 JPA repository interfaces.
+2025-12-01T23:05:49.341-03:00  INFO 21060 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-12-01T23:05:49.352-03:00  INFO 21060 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-01T23:05:49.352-03:00  INFO 21060 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-12-01T23:05:49.396-03:00  INFO 21060 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-01T23:05:49.396-03:00  INFO 21060 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1095 ms
+2025-12-01T23:05:49.636-03:00  INFO 21060 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-01T23:05:49.677-03:00  INFO 21060 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-12-01T23:05:49.704-03:00  INFO 21060 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-12-01T23:05:49.931-03:00  INFO 21060 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-01T23:05:49.953-03:00  INFO 21060 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-01T23:05:50.076-03:00  INFO 21060 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@78f5cbc5
+2025-12-01T23:05:50.078-03:00  INFO 21060 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-01T23:05:50.096-03:00  WARN 21060 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-01T23:05:50.097-03:00  WARN 21060 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-12-01T23:05:50.111-03:00  INFO 21060 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-01T23:05:50.646-03:00  INFO 21060 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-01T23:05:50.716-03:00  INFO 21060 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-01T23:05:50.976-03:00  WARN 21060 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-01T23:05:51.345-03:00  INFO 21060 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2025-12-01T23:05:51.413-03:00  INFO 21060 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-12-01T23:05:51.423-03:00  INFO 21060 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] dProyectoDesarrolloAppMovilesApplication : Started BackendProyectoDesarrolloAppMovilesApplication in 3.557 seconds (process running for 6.406)
+2025-12-01T23:05:55.141-03:00  INFO 21060 --- [Backend_Proyecto_Desarrollo_app_moviles] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-01T23:05:55.141-03:00  INFO 21060 --- [Backend_Proyecto_Desarrollo_app_moviles] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-01T23:05:55.142-03:00  INFO 21060 --- [Backend_Proyecto_Desarrollo_app_moviles] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-12-01T23:06:54.579-03:00  INFO 21060 --- [Backend_Proyecto_Desarrollo_app_moviles] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-01T23:06:54.583-03:00  INFO 21060 --- [Backend_Proyecto_Desarrollo_app_moviles] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-12-01T23:06:54.586-03:00  INFO 21060 --- [Backend_Proyecto_Desarrollo_app_moviles] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-01T23:06:54.588-03:00  INFO 21060 --- [Backend_Proyecto_Desarrollo_app_moviles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-01T23:06:54.593-03:00  INFO 21060 --- [Backend_Proyecto_Desarrollo_app_moviles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-12-01T23:07:00.442-03:00  INFO 25540 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] dProyectoDesarrolloAppMovilesApplication : Starting BackendProyectoDesarrolloAppMovilesApplication using Java 22.0.1 with PID 25540 (D:\Programas\Repos\Backend_Proyecto_Desarrollo_app_moviles\target\classes started by sebit in D:\Programas\Repos\Backend_Proyecto_Desarrollo_app_moviles)
+2025-12-01T23:07:00.443-03:00 DEBUG 25540 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] dProyectoDesarrolloAppMovilesApplication : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-12-01T23:07:00.444-03:00  INFO 25540 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] dProyectoDesarrolloAppMovilesApplication : No active profile set, falling back to 1 default profile: "default"
+2025-12-01T23:07:01.087-03:00  INFO 25540 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-01T23:07:01.130-03:00  INFO 25540 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 2 JPA repository interfaces.
+2025-12-01T23:07:01.438-03:00  INFO 25540 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-12-01T23:07:01.449-03:00  INFO 25540 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-01T23:07:01.450-03:00  INFO 25540 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-12-01T23:07:01.490-03:00  INFO 25540 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-01T23:07:01.491-03:00  INFO 25540 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1008 ms
+2025-12-01T23:07:01.692-03:00  INFO 25540 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-01T23:07:01.731-03:00  INFO 25540 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-12-01T23:07:01.755-03:00  INFO 25540 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-12-01T23:07:01.969-03:00  INFO 25540 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-01T23:07:01.991-03:00  INFO 25540 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-01T23:07:02.114-03:00  INFO 25540 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@10d4b573
+2025-12-01T23:07:02.116-03:00  INFO 25540 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-01T23:07:02.131-03:00  WARN 25540 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-12-01T23:07:02.132-03:00  WARN 25540 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-12-01T23:07:02.145-03:00  INFO 25540 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-01T23:07:02.649-03:00  INFO 25540 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-01T23:07:02.708-03:00  INFO 25540 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-01T23:07:02.947-03:00  WARN 25540 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-01T23:07:03.254-03:00  INFO 25540 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2025-12-01T23:07:03.312-03:00  INFO 25540 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-12-01T23:07:03.321-03:00  INFO 25540 --- [Backend_Proyecto_Desarrollo_app_moviles] [main] dProyectoDesarrolloAppMovilesApplication : Started BackendProyectoDesarrolloAppMovilesApplication in 3.29 seconds (process running for 3.61)
+2025-12-01T23:07:13.154-03:00  INFO 25540 --- [Backend_Proyecto_Desarrollo_app_moviles] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-01T23:07:13.154-03:00  INFO 25540 --- [Backend_Proyecto_Desarrollo_app_moviles] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-01T23:07:13.155-03:00  INFO 25540 --- [Backend_Proyecto_Desarrollo_app_moviles] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-12-01T23:07:21.661-03:00  INFO 25540 --- [Backend_Proyecto_Desarrollo_app_moviles] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-01T23:07:21.665-03:00  INFO 25540 --- [Backend_Proyecto_Desarrollo_app_moviles] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-12-01T23:07:21.668-03:00  INFO 25540 --- [Backend_Proyecto_Desarrollo_app_moviles] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-01T23:07:21.669-03:00  INFO 25540 --- [Backend_Proyecto_Desarrollo_app_moviles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-01T23:07:21.674-03:00  INFO 25540 --- [Backend_Proyecto_Desarrollo_app_moviles] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
