@@ -73,6 +73,7 @@
 	</dependencies>
 
 	<build>
+        <finalName>mi-microservicio</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
